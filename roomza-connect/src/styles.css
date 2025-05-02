@@ -1,2 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "font-awesome/css/font-awesome.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-poppins);
+}
+:root {
+  --primary-color: #4a90e2;
+  --accent-color: #50e3c2;
+  --secondary-color: #f5a623;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --ff-poppins: "Poppins", sans-serif;
+}
